@@ -1,0 +1,14 @@
+{
+  "name": "ai-homework-checker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.ts",
+    "start": "node index.ts"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.11.0",
+    "express": "^4.19.2"
+  }
+}
